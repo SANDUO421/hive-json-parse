@@ -1,0 +1,121 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sanduo.hive.myjson</groupId>
+  <artifactId>function-myjson</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>myjson-funcition</name>
+  <description>hive 的自定义函数 myjson</description>
+  
+  <properties>
+  <hive-jdbc-version>1.2.1</hive-jdbc-version>
+  <hive-common-version>1.2.1</hive-common-version>
+  <hive-exec-version>1.2.1</hive-exec-version>
+  <hive-metastore-version>1.2.1</hive-metastore-version>
+  <hive-shims-version>1.2.1</hive-shims-version>
+  <hive-serde-version>1.2.1</hive-serde-version>
+  <hive-service-version>1.2.1</hive-service-version>
+  <hive-cli-version>1.2.1</hive-cli-version>
+  <hive-ant-version>1.2.1</hive-ant-version>
+  <hive-beeline-version>1.2.1</hive-beeline-version>
+  <hive-testutils-version>1.2.1</hive-testutils-version>
+  <hive-hwi-version>1.2.1</hive-hwi-version>
+  <hive-contrib-version>1.2.1</hive-contrib-version>
+  <hive-hbase-handler-version>1.2.1</hive-hbase-handler-version>
+  <!-- <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
+  
+  </properties>
+  
+  <dependencies>
+
+	  <dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-common</artifactId>
+	    <version>${hive-common-version}</version>
+	 </dependency>
+	 
+	  <dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-exec</artifactId>
+	    <version>${hive-exec-version}</version>
+	</dependency>
+	
+	<!-- <dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-jdbc</artifactId>
+	    <version>${hive-jdbc-version}</version>
+	  </dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-metastore</artifactId>
+	    <version>${hive-metastore-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-shims</artifactId>
+	    <version>${hive-shims-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-serde</artifactId>
+	    <version>${hive-serde-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-service</artifactId>
+	    <version>${hive-service-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-cli</artifactId>
+	    <version>${hive-cli-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-ant</artifactId>
+	    <version>${hive-ant-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-beeline</artifactId>
+	    <version>${hive-beeline-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-testutils</artifactId>
+	    <version>${hive-testutils-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-hwi</artifactId>
+	    <version>${hive-hwi-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-contrib</artifactId>
+	    <version>${hive-contrib-version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.apache.hive</groupId>
+	    <artifactId>hive-hbase-handler</artifactId>
+	    <version>${hive-hbase-handler-version}</version>
+	</dependency>
+	 -->
+  </dependencies>
+  
+  <build>
+  	<plugins>
+  	<plugin>
+  	 	<groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-compiler-plugin</artifactId>
+	    <version>3.7.0</version>
+	    <configuration>
+	    	<source>1.8</source>
+	    	<target>1.8</target>
+	    	<encoding>UTF-8</encoding>
+	    </configuration>
+  	</plugin>
+  		
+  	</plugins>
+  </build>
+</project>
